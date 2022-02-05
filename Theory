@@ -1,0 +1,13 @@
+Most of ML technices follow some steps:
+Step 1) Make a prediction : Coefficient ,Theta(0),Theta(1)
+The first prediction is random
+Step 2) Calculate the error. Measure how good the prediction was. We need to calculate how far we were from the data. We need to calculate the size of our error.
+Step 3) Learning step: This is where we adjust our prediction.
+Bascily we learn from our mistakes .
+When we adjust e.g coeficients we go back to step 1 and the new prediction will use the new coefficient.
+
+This is called algorithm.
+
+
+At step 1 )
+Our algorith has to rank what the best value were for theta zero and theta one.We need that line that minimizes the distance between the data points between the data points and the line. For that reason we doing the Residual sum of squares and gives us a single metric on how good our estimates for theta one and theta zero are. When we minimize this error , it shows that we are choosing the best values for theta  and theta zero.Like this this we give our algorith a Goal. (RSS) . People call them like cost functions or error functions , loss functions, objective function.
